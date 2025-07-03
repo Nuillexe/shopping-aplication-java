@@ -1,7 +1,4 @@
-import java.util.Scanner;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.LinkedList;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -36,6 +33,8 @@ public class Main {
 
         }while(!stopShopping);
 
+        Collections.sort(shoppingList);
+
         System.out.println(showShopping(shoppingList));
         System.out.println("Thanks for shopping in our store");
     }
@@ -47,20 +46,34 @@ public class Main {
 
         return totalShopping;
     }
+
     static boolean stopShopping(String answer){
         return !answer.equalsIgnoreCase("yes");
     }
 
     static String showShopping(List<Products> productsList){
-        String shoppingList= "\n********************\n"+
-                              "Purchases Made:\n\n"  ;
-        double totalShopping=calculateTotalShopping(productsList);
+        return printMargin()+
+                "Purchases Made:\n\n" +
+                printingEachProduct(productsList)+
+                printShoppingTotal(productsList)+
+                printMargin();
+    }
+
+    static String printingEachProduct(List<Products> productsList){
+        String shoppingList="";
         for(Products purchase: productsList)
             shoppingList+=purchase.toString();
-
-        shoppingList+="Total: "+totalShopping+
-                    "\n********************\n";
         return shoppingList;
     }
+
+    static String printShoppingTotal(List<Products> productsList){
+        double totalShopping=calculateTotalShopping(productsList);
+        return "Total: "+totalShopping+"\n";
+    }
+
+    static String printMargin(){
+        return "\n********************\n";
+    }
+
 
 }
