@@ -1,47 +1,55 @@
-# 💳 Sistema de Compras com Cartão de Crédito
 
-Este projeto é a **aplicação final do curso [Java: Trabalhando com listas e objetos](https://cursos.alura.com.br/course/java-trabalhando-listas-objetos)**, que integra a [Formação Java da Alura](https://cursos.alura.com.br/formacao-java). Ele foi desenvolvido com o objetivo de aplicar na prática os principais conceitos de **Programação Orientada a Objetos (POO)** e manipulação de **listas** com Java.
+---
+## 🇺🇸 English Version (README-en.md)
+
+# 💳 Credit Card Purchase App
+
+This project is the **final application of the [Java: Working with Lists and Objects](https://cursos.alura.com.br/course/java-trabalhando-listas-objetos) course**, part of the [Java Developer Path by Alura](https://cursos.alura.com.br/formacao-java). The goal was to put into practice key Java concepts like **Object-Oriented Programming (OOP)** and **list manipulation** through a functional shopping simulation.
 
 ---
 
-## 🎓 Formação Java da Alura
+## 🎓 About the Alura Java Path
 
-A formação **"Aprenda a programar em Java com Orientação a Objetos"** é voltada para quem quer iniciar sua carreira com Java, aprendendo desde os fundamentos da linguagem até práticas modernas como consumo de APIs e manipulação de coleções.  
-Durante os cursos, aprendemos sobre:
+The **“Learn to Program in Java with OOP”** path offers a complete introduction to Java development — from core language fundamentals to more advanced topics such as API consumption and exception handling.
 
-- Fundamentos da linguagem Java
-- Programação Orientada a Objetos (POO)
-- Listas e coleções de dados
-- Leitura e gravação de arquivos
-- Tratamento de exceções
+Topics covered in the path:
 
----
-
-## 🛍️ Sobre o projeto
-
-Este programa simula uma experiência de compra com cartão de crédito:
-
-- O usuário define um **limite inicial do cartão**
-- Pode adicionar **várias compras com descrição e valor**
-- O sistema verifica se o limite permite a compra
-- Ao final, todas as compras são exibidas **em ordem decrescente de valor**
-- Também são exibidos o **total gasto** e o **saldo restante**
+- Java syntax and structure
+- Object-Oriented Programming (OOP)
+- Collections and object lists
+- File read/write
+- Error handling with exceptions
 
 ---
 
-## 🧠 O que foi aplicado
+## 🛍️ About the app
 
-- ✅ Programação Orientada a Objetos (classes `CreditCard`, `Purchase`)
-- ✅ Encapsulamento e separação de responsabilidades
-- ✅ Uso de listas com `LinkedList`
-- ✅ Ordenação com `Comparable` e `Collections.sort()`
-- ✅ Modularização do código (funções claras e reutilizáveis)
-- ✅ Impressão formatada com margens e totais
-- ✅ Validação de limite e lógica de fluxo
+This app simulates a **credit card shopping experience**:
+
+- The user sets a **credit card limit**
+- Multiple purchases can be added (with description and value)
+- The system checks if the limit allows the purchase
+- All purchases are displayed **in descending order of value**
+- Displays the **total spent** and **remaining balance**
 
 ---
 
-## 🧹 Objetivo pessoal
+## 🧠 Concepts implemented
 
-Meu objetivo neste projeto foi não apenas aplicar os conhecimentos do curso, mas também **exercitar a construção de um código limpo, reutilizável, organizado e de fácil leitura**.  
-Essa prática me aproximou ainda mais do estilo de código adotado profissionalmente por desenvolvedores Java. 💪
+- ✅ Object-Oriented Programming (`CreditCard`, `Purchase` classes)
+- ✅ Proper class responsibility and encapsulation
+- ✅ Use of `LinkedList` to handle a collection of purchases
+- ✅ Custom sorting using `Comparable` and `Collections.sort()`
+- ✅ Code modularization with clean, reusable methods
+- ✅ Formatted output with purchase summaries and totals
+- ✅ Input validation and balance logic
+
+---
+
+## 🧹 Personal goal
+
+Beyond meeting the project requirements, I aimed to **build clean, well-structured and readable code**, following best practices in Java development.  
+This project served as a great step forward in my journey as a Java developer. 💪
+
+---
+Built with 💙 by Emanuel – Java developer in the making 🚀
