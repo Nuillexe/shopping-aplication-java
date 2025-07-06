@@ -1,4 +1,5 @@
 # 💳 Sistema de Compras com Cartão de Crédito
+📘 English version available: [README-en.md](./README-en.md)
 
 Este projeto é a **aplicação final do curso [Java: Trabalhando com listas e objetos](https://cursos.alura.com.br/course/java-trabalhando-listas-objetos)**, que integra a [Formação Java da Alura](https://cursos.alura.com.br/formacao-java). Ele foi desenvolvido com o objetivo de aplicar na prática os principais conceitos de **Programação Orientada a Objetos (POO)** e manipulação de **listas** com Java.
 
@@ -39,17 +40,12 @@ Este programa simula uma experiência de compra com cartão de crédito:
 - ✅ Impressão formatada com margens e totais
 - ✅ Validação de limite e lógica de fluxo
 
----
+
 
 ## 🧹 Objetivo pessoal
 
 Meu objetivo neste projeto foi não apenas aplicar os conhecimentos do curso, mas também **exercitar a construção de um código limpo, reutilizável, organizado e de fácil leitura**.  
 Essa prática me aproximou ainda mais do estilo de código adotado profissionalmente por desenvolvedores Java. 💪
 
----
+Desenvolvido com 💙 por Emanuel – estudante da Formação Java da Alura 🚀
 
-## 🖥️ Como executar
-
-1. Clone este repositório:
-   ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
