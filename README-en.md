@@ -3,6 +3,7 @@
 ## 🇺🇸 English Version (README-en.md)
 
 # 💳 Credit Card Purchase App
+📘 Portuguese version available: [README-pt.md](./README-pt.md)
 
 This project is the **final application of the [Java: Working with Lists and Objects](https://cursos.alura.com.br/course/java-trabalhando-listas-objetos) course**, part of the [Java Developer Path by Alura](https://cursos.alura.com.br/formacao-java). The goal was to put into practice key Java concepts like **Object-Oriented Programming (OOP)** and **list manipulation** through a functional shopping simulation.
 
